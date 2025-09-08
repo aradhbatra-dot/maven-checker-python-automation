@@ -164,7 +164,7 @@ def find_version_tags_from_pom(pom_xml_content, version_tags):
         return None
 
 def main():
-    base_api_url = 'https://stash.cvent.net/rest/api/1.0'
+    base_api_url = 'https://stash.net/rest/api/1.0'
     username = 'aradhya.batra'
     password = '***'
     project_keys_and_slugs = [
